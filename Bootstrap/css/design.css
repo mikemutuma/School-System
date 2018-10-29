@@ -1,0 +1,278 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*MY CODE*/
+.x
+{
+    margin: 0 auto;
+    width: 1000px;
+
+}
+
+body
+{
+    background-color: #c4c3b5;
+}
+
+.p
+{
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+}
+
+.t
+{
+    float: left;
+}
+
+.s
+{
+    float: left;
+    list-style-type: none;
+}
+
+a
+{
+    font-size: 16px;
+    color: #292a1d;
+    line-height: 63px;
+    text-decoration: none;
+}
+.y
+{
+    float: right;
+}
+
+.f
+{
+    float: left;
+    padding-top: 15px;
+}
+
+.i
+{
+    float: left;
+    width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #c4c3b5;
+    font-size: 14px;
+    color: #020101;
+    line-height: 30px;
+}
+
+.u
+{
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 14px;
+    color: #020101;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: #c4c3b5;
+}
+
+.z
+{
+    display:block;
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #292a1d;
+    text-decoration: none;
+    line-height: 63px;
+    cursor: pointer;
+    float: left;
+}
+
+.a
+{
+    padding-top: 40px;
+}
+
+h2
+{
+    font-size: 40px;
+    color: #292a1d;
+    line-height: 50px;
+    text-align: center;
+}
+
+/*Style up for signup.php*/
+
+.j
+{
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+
+.l
+{
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    border: none;
+    margin-bottom: 4px;
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #020101;
+    line-height: 40px;
+}
+
+.d
+{
+    display: block;
+    margin-right: 35%;
+    margin-left: 35%;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: #493f45;
+    font-size: 16px;
+    color: #fefff9;
+    cursor: pointer;
+    float: right;
+}
+
+.d:hover
+{
+    background-color: #575648;
+}
+.tu
+{
+  text-align: center;
+    font-size: 2em;
+}
+.lo
+{
+    float: right;
+}
+table,td,th
+{
+    border: 2px solid #3524ff;
+    border-collapse: collapse;
+}
+table
+{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #97a4ff;
+}
+td,th {
+    padding-left: 10px;
+}
